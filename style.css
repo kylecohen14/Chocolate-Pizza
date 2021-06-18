@@ -1,0 +1,48 @@
+header h1 {
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px;
+}
+header h2 {
+  font-family: Impact, Haettenschweiler, ‘Arial Narrow Bold’, sans-serif;
+  font-size: .4em;
+}
+body {
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  width: 1000px;
+  background-color: white;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 0px;
+  border-bottom: gray 10px;
+  border-bottom-style: dashed;
+}
+#header {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+/* #Delicious {
+} */
+#linkimgs {
+  display: flex;
+  justify-content: space-between;
+}
+main article:nth-child(1) {
+  width: 100%;
+  height: 60px;
+}
+#chocolatePizza {
+  float: left;
+}
+#chocolatePizza img {
+}
+main article:nth-child(2) {
+  width: 100%;
+}
